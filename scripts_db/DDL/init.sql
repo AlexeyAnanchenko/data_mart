@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS public.shop (
 CREATE TABLE IF NOT EXISTS public.products (
     product_id serial PRIMARY KEY,
     product_name varchar(50) NOT NULL,
-    price numeric(6,2)
+    price numeric(8,2)
 );
 
 CREATE TABLE IF NOT EXISTS public.plan (
