@@ -1,4 +1,6 @@
 # data_mart
+
+## задание обычной сложности
 Задание на составление витрины из базы данных в рамках курса "Инженер данных" от 1Т
 
 Обновлённая схема БД представлена на ER-диаграмме по ссылке: (<code>[./ER-diagram.png](https://github.com/AlexeyAnanchenko/data_mart/blob/main/ER-diagram.png)</code>)
