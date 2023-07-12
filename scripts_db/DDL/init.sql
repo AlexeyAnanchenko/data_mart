@@ -17,6 +17,14 @@ CREATE TABLE IF NOT EXISTS public.plan (
     plan_date date NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS public.promo (
+    id_promo serial PRIMARY KEY,
+    shop_id int REFERENCES public.shop (shop_id) ON DELETE CASCADE,
+    product_id int REFERENCES public.products (product_id) ON DELETE CASCADE,
+    discount decimal NOT NULL,
+    promo_date date NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS public.shop_dns (
     shop_dns_id serial PRIMARY KEY,
     sales_date date,
